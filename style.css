@@ -1,197 +1,240 @@
 body {
-    background-color: #f4f4f4;
-    font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
 }
 
 h3 {
-    font: Bold 21px/25px Montserrat;
-    color: white;
-    background-color: #800080;
-    padding: 3px;
-    /* width: fit-content;*/
-    text-align: center;
-    align-self: center;
+  font: Bold 21px/25px Montserrat;
+  color: white;
+  background-color: #800080;
+  padding: 3px;
+  /* width: fit-content;*/
+  text-align: center;
+  align-self: center;
+}
+
+h4 {
+  color: #c3aed6;
+  text-decoration: none;
+}
+
+h5 {
+  color: black;
+  text-decoration: none;
 }
 
 p {
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-image: url(./images/mountain.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 500px;
-    width: auto;
-    position: sticky;
-    border-bottom: 3px solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(./images/mountain.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 500px;
+  width: auto;
+  position: sticky;
+  border-bottom: 3px solid white;
 }
 
 /* HEADER ICONS */
 .icons {
-    display: flex;
-    justify-content: flex-end;
-    top: 127px;
-    left: 1445px;
-    margin: 15px;
+  display: flex;
+  justify-content: flex-end;
+  top: 127px;
+  left: 1445px;
+  margin: 15px;
 }
 
 .icon-link {
-    display: flex;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border: 2px solid white;
-    padding: 5px 4px 0 4px;
-    border-radius: 50%;
-    opacity: 1;
-    margin: 2px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  padding: 5px 4px 0 4px;
+  border-radius: 50%;
+  opacity: 1;
+  margin: 2px;
 }
 
 .icon-image {
-    width: 70%;
-    height: 70%;
+  width: 70%;
+  height: 70%;
 }
 
 /* HEADER TEXT */
 .head-p {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    letter-spacing: 1.12px;
-    color: #ffffff;
-    opacity: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.12px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .head-h1 {
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .head-h2 {
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 /* PROFILE PICTURE */
 .profile-image {
-    border-radius: 50%;
-    border: 3px solid white;
-    align-self: flex-end;
-    margin: 0px 25px;
-    top: 355px;
-    left: 1174px;
-    width: 160px;
-    height: 160px;
+  border-radius: 50%;
+  border: 3px solid white;
+  align-self: flex-end;
+  margin: 0px 25px;
+  top: 355px;
+  left: 1174px;
+  width: 160px;
+  height: 160px;
 }
 
 /* INTRODUCTION SECTION */
 .introduction {
-
-    background: #f4f4f4;
-    color: black;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    padding: 50px 25px;
+  background: #f4f4f4;
+  color: black;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  padding: 50px 25px;
 }
 
 .container {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.cylinder {
+  display: inline-block;
+  width: 55px;
+  height: 5px;
+  border-top: 4px solid #800080;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #800080;
+  background-color: #800080;
+  margin-right: 17px;
+  margin-left: -1px;
+  border-radius: 50%;
 }
 
 /* TECH SECTION */
 .tech-section {
-    background-color: white;
-    ;
+  background-color: white;
 }
 
 .tech-section p {
-    text-align: center;
+  text-align: center;
 }
 
 /* FEATURED PROJECTS SECTION*/
-/* ABOUT CODE SECTION */
-.about-code {
-    background-color: white;
+
+
+/* THOUGHTS */
+.about-thoughts {
+  background-color: white;
+  padding: 30px;
+}
+
+.about-thoughts img {
+  width: 300px;
+}
+
+article {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* SKILLS SECTION */
 .skills .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 .list {
-    list-style: none;
-    padding: 2px;
-    color: #c3aed6;
-    text-align: center;
+  list-style: none;
+  padding: 2px;
+  color: #c3aed6;
+  text-align: center;
 }
 
 .skill {
-    list-style: none;
-    padding: 2px;
-    text-align: center;
+  list-style: none;
+  padding: 2px;
+  text-align: center;
 }
 
 /* FOR MORE LINK SECTION */
 .more {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
 .icon-link-purple {
-    display: flex;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border: 2px solid #800080;
-    padding: 5px 4px 0 4px;
-    border-radius: 50%;
-    opacity: 1;
-    margin: 2px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #800080;
+  padding: 5px 4px 0 4px;
+  border-radius: 50%;
+  opacity: 1;
+  margin: 2px;
 }
 
 .icons-more {
-    display: flex;
-    justify-content: center;
-    margin: 0 15px 15px 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 15px 30px 15px;
 }
 
 /* CONTACT FOOTER SECTION */
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 footer {
-    color: black;
-    width: 100%;
-    padding: 20px;
-    background-color: #c3aed6;
-    height: 200px;
+  color: black;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: #c3aed6;
+  height: 200px;
 }
