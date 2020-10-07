@@ -27,6 +27,7 @@ p {
   color: black;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  max-width: 650px;
 }
 
 header {
@@ -159,7 +160,28 @@ header {
 }
 
 /* FEATURED PROJECTS SECTION*/
+.featured-projects img {
+  width: 280px;
+}
 
+.technologies {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.technologies-item {
+  background-color: #c3aed6;
+  color: #ffffff;
+  padding: 2px;
+  text-align: center;
+  margin: 2px;
+}
+
+.detail {
+  color: #c3aed6;
+  font-weight: 700;
+}
 
 /* THOUGHTS */
 .about-thoughts {
@@ -168,7 +190,7 @@ header {
 }
 
 .about-thoughts img {
-  width: 300px;
+  width: 250px;
 }
 
 article {
