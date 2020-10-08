@@ -34,7 +34,7 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url(./images/mountain.jpg);
+  background-image: url(./images/Background.jpg);
   background-size: cover;
   background-position: bottom;
   height: 500px;
@@ -147,7 +147,6 @@ header {
   border-radius: 50%;
 }
 
-
 /* TECH SECTION */
 .tech-section {
   background-color: #ffffff;
@@ -181,6 +180,12 @@ header {
 .detail {
   color: #c3aed6;
   font-weight: 700;
+}
+
+/* OTHER PROJECTS */
+.other-projects h3 {
+  color: #800080;
+  background-color: #f4f4f4;
 }
 
 /* THOUGHTS */
