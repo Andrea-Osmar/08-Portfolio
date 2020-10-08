@@ -72,6 +72,8 @@ header {
 /* HEADER TEXT */
 .header-text {
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .head-p {
@@ -159,6 +161,13 @@ header {
 }
 
 /* FEATURED PROJECTS SECTION*/
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .featured-projects img {
   width: 280px;
 }
@@ -181,6 +190,7 @@ header {
   color: #c3aed6;
   font-weight: 700;
 }
+
 
 /* OTHER PROJECTS */
 .other-projects h3 {
@@ -271,3 +281,37 @@ footer {
   background-color: #c3aed6;
   height: 200px;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 650px) {
+  .header-text {
+    line-height: 0;
+    margin-left: 70px;
+  }
+
+  .icons {
+    margin: 15px 30px;
+  }
+
+  .wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-self: center;
+  }
+
+  .article {
+    width: 47%;
+    text-align: left;
+  }
+
+  .article p {
+    text-align: left;
+  }
+}
+
+
+
+
+@media (min-width:900px) {}
