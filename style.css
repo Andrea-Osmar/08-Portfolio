@@ -14,7 +14,7 @@ h3 {
 }
 
 h4 {
-  color: #c3aed6;
+  color: #955c93;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ header {
   display: flex;
   position: absolute;
   justify-content: flex-end;
-  top: 14px;
+  top: -3px;
   right: 4px;
   margin: 15px;
 }
@@ -186,7 +186,7 @@ header {
 }
 
 .technologies-item {
-  background-color: #c3aed6;
+  background-color: #955c93; /*#c3aed6;*/
   color: #ffffff;
   padding: 2px;
   text-align: center;
@@ -194,7 +194,7 @@ header {
 }
 
 .detail {
-  color: #c3aed6;
+  color: #955c93;
   font-weight: 700;
 }
 
@@ -238,7 +238,7 @@ ul {
 .list {
   list-style: none;
   padding: 2px;
-  color: #c3aed6;
+  color: #955c93;
   text-align: center;
 }
 
