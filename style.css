@@ -296,7 +296,6 @@ footer {
 
   .header-text {
     line-height: 0;
-    margin-left: 70px;
   }
 
   .wrapper {
@@ -338,6 +337,23 @@ footer {
   header {
     background-position: center center;
     height: 900px;
+  }
+
+  .header-text {
+    top: 270px;
+    left: 103px;
+  }
+
+  .head-p {
+   font-size: 20px;
+  }
+  
+  .head-h1 {
+    font-size: 60px;
+  }
+  
+  .head-h2 { 
+    font-size: 30px;
   }
 
   .icons {
