@@ -36,11 +36,12 @@ header {
   flex-direction: column;
   background-image: url(./images/Background.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom left;
   height: 500px;
   width: auto;
   position: sticky;
   border-bottom: 3px solid #ffffff;
+  -moz-background-size: cover;
 }
 
 /* HEADER ICONS */
@@ -76,6 +77,7 @@ header {
   display: flex;
   flex-direction: column;
   position: absolute;
+  background-color: rgb(202 157 188 / 50%);
 }
 
 .head-p {
@@ -174,6 +176,7 @@ header {
 
 .featured-projects img {
   width: 280px;
+  height: 250px;
 }
 
 .technologies {
@@ -290,6 +293,7 @@ footer {
 /* MEDIA QUERIES */
 
 @media (min-width: 650px) {
+
   .header-text {
     line-height: 0;
     margin-left: 70px;
@@ -331,6 +335,11 @@ footer {
 
 
 @media (min-width:900px) {
+  header {
+    background-position: center center;
+    height: 900px;
+  }
+
   .icons {
     right: 30px;
   }
@@ -343,6 +352,9 @@ footer {
   .profile-image {
     width: 250px;
     height: 250px;
-    right: 70px;
+    right: 100px;
+    bottom: 50px;
   }
+
+
 }
