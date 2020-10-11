@@ -200,7 +200,7 @@ article {
 }
 
 .technologies-item {
-  background-color: #955c93; /*#c3aed6;*/
+  background-color: #955c93; 
   color: #ffffff;
   padding: 2px;
   text-align: center;
@@ -211,7 +211,6 @@ article {
   color: #955c93;
   font-weight: 700;
 }
-
 
 /* OTHER PROJECTS */
 
@@ -312,7 +311,6 @@ footer {
 footer a:hover {
  font-size: 18px;
 }
-
 
 /* MEDIA QUERIES */
 
