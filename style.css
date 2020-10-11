@@ -4,7 +4,9 @@ body {
 }
 
 h3 {
-  font: Bold 21px/25px Montserrat;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 21px;
   color: #ffffff;
   background-color: #800080;
   padding: 3px;
@@ -40,11 +42,12 @@ header {
   height: 500px;
   width: auto;
   position: sticky;
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 3px solid rgba(0, 0, 0, .07);
   -moz-background-size: cover;
 }
 
 /* HEADER ICONS */
+
 .icons {
   display: flex;
   position: absolute;
@@ -72,6 +75,7 @@ header {
 }
 
 /* HEADER TEXT */
+
 .header-text {
   margin-left: 20px;
   display: flex;
@@ -106,6 +110,7 @@ header {
 }
 
 /* PROFILE PICTURE */
+
 .profile-image {
   border-radius: 50%;
   border: 3px solid #ffffff;
@@ -119,12 +124,13 @@ header {
 }
 
 /* INTRODUCTION SECTION */
+
 .introduction {
   background: #f4f4f4;
   color: black;
   letter-spacing: 2px;
   margin-top: 10px;
-  padding: 50px 25px;
+  padding: 25px;
 }
 
 .container {
@@ -155,6 +161,7 @@ header {
 }
 
 /* TECH SECTION */
+
 .tech-section {
   background-color: #ffffff;
 }
@@ -166,12 +173,20 @@ header {
 }
 
 /* FEATURED PROJECTS SECTION*/
+
 .wrapper {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+article {
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, .07);
+  max-width: 350px;
+  height: 450px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .featured-projects img {
@@ -200,12 +215,14 @@ header {
 
 
 /* OTHER PROJECTS */
+
 .other-projects h3 {
   color: #800080;
   background-color: #f4f4f4;
 }
 
 /* THOUGHTS */
+
 .about-thoughts {
   background-color: #ffffff;
   padding: 15px;
@@ -215,8 +232,8 @@ header {
   width: 250px;
 }
 
-article {
-  padding: 10px;
+.about-thoughts article {
+  height: 300px;
 }
 
 a {
@@ -224,6 +241,7 @@ a {
 }
 
 /* SKILLS SECTION */
+
 .skills .container {
   display: flex;
   flex-direction: column;
@@ -249,10 +267,12 @@ ul {
 }
 
 /* FOR MORE LINK SECTION */
+
 .more {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
+  margin-top: 20px;
 }
 
 .icon-link-purple {
@@ -274,6 +294,7 @@ ul {
 }
 
 /* CONTACT FOOTER SECTION */
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -306,12 +327,6 @@ footer a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1200px;
-    align-self: center;
-  }
-
-  .article {
-    width: 47%;
-    text-align: left;
   }
 
   .article p {
@@ -332,10 +347,8 @@ footer a:hover {
 
   .technologies {
     justify-content: left;
-
   }
 }
-
 
 @media (min-width:900px) {
   header {
@@ -375,6 +388,4 @@ footer a:hover {
     right: 100px;
     bottom: 50px;
   }
-
-
 }
