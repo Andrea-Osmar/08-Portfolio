@@ -8,4 +8,4 @@ For this project accessibility  was in focus. I have tested the site for many di
 I have also tested the site with Lighthouse, Wave and validator.w3.
 
 # View it live
-https://andreaosmar.netlify.app/
+[Here](https://andreaosmar.netlify.app/)
