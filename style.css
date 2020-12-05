@@ -7,6 +7,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 21px;
+  border-radius: 2px;
   color: #ffffff;
   background-color: #800080;
   padding: 3px;
@@ -28,7 +29,6 @@ h5 {
 p {
   color: black;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
 }
 
 header {
@@ -51,7 +51,7 @@ header {
   display: flex;
   position: absolute;
   justify-content: flex-end;
-  top: -3px;
+  top: -5px;
   right: 4px;
   margin: 15px;
 }
@@ -77,6 +77,7 @@ header {
 
 .header-text {
   margin-left: 20px;
+  padding: 4px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -200,11 +201,11 @@ article {
 }
 
 .technologies-item {
-  background-color: #955c93; 
-  color: #ffffff;
+  background-color: #ecacea85;
   padding: 2px;
-  text-align: center;
   margin: 2px;
+  font-size: 10px;
+  border-radius: 2px;
 }
 
 .detail {
@@ -213,6 +214,14 @@ article {
 }
 
 /* OTHER PROJECTS */
+
+.other-projects {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  text-align: left;
+}
 
 .other-projects h3 {
   color: #800080;
@@ -232,7 +241,7 @@ article {
 
 .about-thoughts article {
   height: 340px;
-  width: 390px;
+  width: 304px;
 }
 
 a {
@@ -321,6 +330,9 @@ footer a:hover {
     line-height: 0;
   }
 
+  .icons {
+    top: 20px;
+  }
   .wrapper {
     flex-direction: row;
     flex-wrap: wrap;
@@ -381,8 +393,8 @@ footer a:hover {
   }
 
   .profile-image {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 293px;
     right: 100px;
     bottom: 50px;
   }
