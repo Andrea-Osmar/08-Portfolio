@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "https://andreaosmar.netlify.app/"
+  to = "https://www.andreaosmar.com/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
